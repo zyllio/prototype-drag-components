@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 900px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+
+.component {
+    display: flex;
+    background-color: green;
+    color: white;
+    height: 60px;
+    font-family: Arial;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.c1 {
+    top: 100px;
+    left: 100px;
+}
+
+.c2 {
+    top: 100px;
+    left: 600px;
+}
+
+.selected {
+    border: 1px solid blue;
+}
+
